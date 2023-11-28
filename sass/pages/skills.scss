@@ -1,0 +1,109 @@
+*{font-family: 'Times New Roman', Times, serif;}
+
+.container00{
+  &.container03{
+    background-image: url(../../Imagens/skins/https___blogoflegends.com_files_2019_02_Thresh_0.jpg);
+  }
+
+  &.container04{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 50px;
+    min-height: 60vh;
+  }
+
+  &.container05{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 50px;
+    min-height: 60vh;
+  }
+
+  &.container06{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 50px;
+    min-height: 60vh;
+  }
+
+  &.container07{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 50px;
+    min-height: 60vh;
+    .imgSkillE{
+      width: 270px;
+    }
+  }
+
+  &.container08{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 50px;
+    min-height: 60vh;
+  }
+  .imgSkillR{
+    width: 150px;
+  }
+}
+
+.titleSkill{
+  font-size: 150px;
+}
+
+.titlePaddingSkill{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.arrowDownSkill{
+  padding-top: 150px;
+  width: 150px;
+}
+
+.containerSkill{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.skillTitle{
+  color: rgba(255, 255, 255, 0.182);
+}
+
+.imgSkill{
+width: 200px;
+height: auto;
+}
+
+.skillDescription{
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+
+@media(max-width:725px){
+  .titleSkill{
+    font-size: 100px;
+
+    .skillDescription{
+      font-size: 20px;
+    width: auto;
+    }
+  }
+  
+}
+
+@media(max-width:478px){
+  .titleSkill{
+    font-size: 75px;
+  }
+  
+}
+
+@media(max-width:380px){
+  .titleSkill{
+    font-size: 50px;
+  }
+  
+  .skillDescription{
+    font-size: 20px;
+  width: auto;
+  }
+}

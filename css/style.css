@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.header {
+  font-size: 25px;
+  color: white;
+}
+.header .navNameSkill {
+  font-size: 20px;
+  padding-top: 13px;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  width: 100px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copy {
+  color: #555252;
+}
+
+@media (max-width: 380px) {
+  .footer {
+    font-size: 10px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../Imagens/skins/https___blogoflegends.com_files_2019_02_Thresh_0.jpg);
+}
+
+#navItem:hover {
+  color: #b9b9b9;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  margin-top: 0;
+  padding-bottom: 1;
+}
+
+.function {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.description {
+  width: 500px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imgContainer {
+  display: flex;
+}
+.imgContainer .imgHome {
+  width: 50px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 10vh;
+}
+
+.skinTitle {
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.carrosselSlide {
+  font-family: "Times New Roman", Times, serif;
+}
+.carrosselSlide img {
+  height: 100vh;
+}
+.carrosselSlide h5 {
+  font-size: 35px;
+}
+
+.btn {
+  font-size: 25px;
+}
+
+@media (max-width: 770px) {
+  .carrosselSlide {
+    display: block;
+  }
+  .carrosselSlide h5 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 536px) {
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+  .description {
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .imgContainer .imgHome {
+    width: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .function {
+    font-size: 15px;
+  }
+  .description {
+    width: 280px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .imgContainer .imgHome {
+    width: 40px;
+  }
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container00.container03 {
+  background-image: url(../../Imagens/skins/https___blogoflegends.com_files_2019_02_Thresh_0.jpg);
+}
+.container00.container04 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 50px;
+  min-height: 60vh;
+}
+.container00.container05 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 50px;
+  min-height: 60vh;
+}
+.container00.container06 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 50px;
+  min-height: 60vh;
+}
+.container00.container07 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 50px;
+  min-height: 60vh;
+}
+.container00.container07 .imgSkillE {
+  width: 270px;
+}
+.container00.container08 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 50px;
+  min-height: 60vh;
+}
+.container00 .imgSkillR {
+  width: 150px;
+}
+
+.titleSkill {
+  font-size: 150px;
+}
+
+.titlePaddingSkill {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.arrowDownSkill {
+  padding-top: 150px;
+  width: 150px;
+}
+
+.containerSkill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillTitle {
+  color: rgba(255, 255, 255, 0.182);
+}
+
+.imgSkill {
+  width: 200px;
+  height: auto;
+}
+
+.skillDescription {
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+@media (max-width: 725px) {
+  .titleSkill {
+    font-size: 100px;
+  }
+  .titleSkill .skillDescription {
+    font-size: 20px;
+    width: auto;
+  }
+}
+@media (max-width: 478px) {
+  .titleSkill {
+    font-size: 75px;
+  }
+}
+@media (max-width: 380px) {
+  .titleSkill {
+    font-size: 50px;
+  }
+  .skillDescription {
+    font-size: 20px;
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

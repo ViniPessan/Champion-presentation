@@ -1,0 +1,127 @@
+
+.container00{
+  &.container01{
+    background-image: url(../../Imagens/skins/https___blogoflegends.com_files_2019_02_Thresh_0.jpg);
+  }
+}
+
+#navItem{
+  &:hover{
+    color:$link-hover ;
+  }
+}
+
+.title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.subtitle{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  margin-top: 0;
+  padding-bottom: 1;
+}
+
+.function{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.description{
+  width: 500px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.imgContainer{
+  display: flex;
+ 
+
+  .imgHome{
+    width: 50px;
+  }
+}
+
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 10vh;
+}
+
+.skinTitle{
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.carrosselSlide{
+  font-family: 'Times New Roman', Times, serif;
+  img{
+    height: 100vh;
+  }
+
+  h5{
+    font-size: 35px;
+  }
+}
+
+.btn{
+  font-size: 25px;
+}
+
+@media(max-width:770px){
+  .carrosselSlide{
+
+    display: block;
+    h5{
+      font-size: 20px;
+    }
+  }
+}
+
+@media(max-width:536px){
+  .title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+  .description{
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .imgContainer{
+    .imgHome{
+      width: 40px;
+    }
+  }
+}
+
+@media(max-width:420px){
+  .title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+
+  .subtitle{
+    font-size: 24px;
+  }
+  .function{
+    font-size: 15px;
+  }
+  
+
+  .description{
+    width: 280px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .imgContainer{
+    .imgHome{
+      width: 40px;
+    }
+  }
+}
